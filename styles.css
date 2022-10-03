@@ -1,0 +1,157 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    color: 	rgb(270,270,270);
+    background-color:rgb(42,42,42);
+    opacity: 0.7
+    }
+  
+  /* Title Card setup */
+  .holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .namebox{
+    font-size: 500%;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+  }
+  .nameboxtop{
+    display: flex;
+    background-color:rgb(100,42,42);
+    padding: 10px 75px 0px 75px;
+    font-family: Didot;
+  }
+  .nameboxbottom{
+    display: flex;
+    background-color:rgb(100,42,42);
+    padding: 0px 75px 10px 75px; 
+    font-family: Didot;
+  }
+  .picbox{
+    border-radius: 50%;
+    height: 50%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+  }
+  /* Creates title boxes for each section */
+  .sectionsLeft{
+    background-color:rgb(100,42,42);
+    padding: 10px 75px 10px 75px;
+    font-family: Didot;
+    font-size: 500%; 
+    font-weight: 450;
+  }
+  .sectionsRight{
+    background-color:rgb(100,42,42);
+    display: flex;
+    justify-content: right;
+    padding: 10px 75px 10px 75px;
+    font-family: Didot;
+    font-size: 500%; 
+    font-weight: 450;
+  }
+  .sectionsCenter{
+    background-color:rgb(100,42,42);
+    display: flex;
+    justify-content: center;
+    padding: 10px 75px 10px 75px;
+    font-family: Didot;
+    font-size: 500%; 
+    font-weight: 450;
+  }
+  
+  /* Work setup */
+  .mainInfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }.headerLeft{
+    display: flex;
+    justify-content: left;
+    padding: 0px 0px 0px 37.5px;
+    font-size: 300%;
+    font-weight: 300;
+  }
+  .headerRight{
+    display: flex;
+    justify-content: right;
+    padding: 15px 37.5px 0px 0px;
+    font-size: 200%;
+    font-weight: 300;
+  }
+  .underLeft{
+    display: flex;
+    justify-content: left;
+    padding: 0px 0px 0px 37.5px;
+    font-size: 200%;
+    font-weight: 300;
+    color: rgb(200,200,200);
+  }
+  .underRight{
+    display: flex;
+    justify-content: right;
+    padding: 10px 37.5px 0px 0px;
+    font-size: 133.33%;
+    font-weight: 300;
+    color: rgb(200,200,200);
+  }
+  p{
+    font-size: 120%;
+    color: rgb(200,200,200);
+  }
+  
+  /* About setup */
+  .aboutbig{
+    text-align: center; 
+    font-size: 400%; 
+    font-weight: 300;
+  }
+  .aboutsmall{
+    text-align: center;
+    font-weight: 100;
+    color: rgb(200,200,200);
+  }
+  
+  /* Contacts setup */
+  .holder2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+  .miniheaders{
+    font-size: 250%;
+    font-weight: 300;
+  }
+  .listed{
+    text-align: center;
+    font-size: 150%;
+    color: rgb(200,200,200);
+  }
+  #unbolder{
+    font-weight: 50;
+  }
+  .button{
+    font-size: 30px;
+    padding: 12px 28px;
+  }
+  
+  /* Links */
+  a{
+    color: rgb(200,200,200);
+  }
+  #links:hover{
+    color:rgb(100,100,100);
+  }
